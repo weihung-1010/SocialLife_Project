@@ -1,0 +1,74 @@
+html,body{
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#navbar {
+  background-image: linear-gradient(135deg, #abdcff 10%, #0396ff 100%);
+  font-family: "Bebas Neue", cursive;
+}
+.scan{
+  color: #B0B0B0;
+}
+
+.fa-solid{
+  color: black;
+}
+.fa-heart{
+  color: #0e5cad;
+  pointer-events: none;
+}
+.fa-user-slash {
+  color: red;
+  pointer-events: none;
+}
+.navbar-brand {
+  font-size: 26px;
+}
+
+
+.card {
+  width: 10rem;
+  border: none;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+  margin: 15px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.btn {
+  background-color: #abdcff;
+}
+
+.btn-add-favorite{
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  right: 0px;
+  bottom:140px;
+}
+.btn-remove-favorite{
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  right: 57px;
+  bottom:50px;
+}
+.btn-add-favorite:hover{
+  transform: scale(2);
+}
+.btn-remove-favorite:hover{
+  opacity: 0.5;
+}
+.btn-show-user{
+  border-radius: 80%;
+}
+.btn-show-user:hover {
+  opacity: 0.8;
+}
